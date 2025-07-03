@@ -10,6 +10,26 @@
   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
   <style>
+     .navbar-custom {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .navbar-nav .nav-link {
+      font-weight: 500;
+      color: #333 !important;
+    }
+
     .footer-icon a {
       color: #d2a373;
       text-decoration: none;
@@ -28,9 +48,9 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-md bg-white shadow-sm sticky-top">
-  <div class="container-fluid px-3 px-md-5">
-    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-      <img src="logo.png" alt="SDCIT Logo" class="me-2"> SDCIT
+  <div class="container-fluid px-4">
+    <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
+      <img src="logo.png" alt="SDCIT Logo" height="40" class="me-2"> SDCIT
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
       <span class="navbar-toggler-icon"></span>
